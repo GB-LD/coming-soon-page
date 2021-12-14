@@ -153,8 +153,6 @@ section p {
     grid-template-columns: 1fr;
     grid-template-rows: auto 0.5fr 1fr;
     align-content: center;
-    min-width: 100vw;
-    max-height: 100vh;
   }
 
   header {
