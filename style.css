@@ -11,8 +11,6 @@ html {
   font-family: "Josefin Sans", sans-serif;
   min-width: 100vw;
   max-width: 100vh;
-  display: flex;
-  justify-content: center;
 }
 
 main {
@@ -151,19 +149,21 @@ section p {
   main {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto 0.5fr 1fr;
+    grid-template-rows: auto 0.75fr 1fr;
     align-content: center;
+    min-width: 100vw;
   }
 
   header {
     grid-row-start: 1;
     height: 5rem;
-    margin: 2rem 0;
+    margin: 1rem;
+    background-position: left 2rem center;
   }
 
-  .left__pannel,
-  .left__pannel p {
+  .left__pannel {
     grid-row-start: 3;
+    padding: 2rem;
     text-align: center;
   }
 
